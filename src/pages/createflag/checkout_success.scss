@@ -1,0 +1,905 @@
+//本页面由uniapp切片工具生成，uni-app切片-可视化设计工具(一套代码编译到7个平台iOS、Android、H5、小程序)，软件下载地址：http://www.ymznkf.com/new_view_669.htm
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+.YmContent {
+    height: 100%;
+    width: 100%;
+}
+
+uni-page-body,
+#app {
+    height: 100%;
+}
+
+button::after {
+    border: none;
+    width: auto;
+}
+
+input {
+    outline: none;
+    border: none;
+    list-style: none;
+    width: auto;
+}
+
+.list_item {
+    float: left;
+}
+
+.ym_hide {
+    display: none;
+}
+
+.ym_show {
+    display: block;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+}
+
+.list_horizontal {
+    width: auto;
+    display: inline-block;
+}
+
+.checkout_success_1 {
+    // white-space: normal;
+    width: 100%;
+    height: 100%;
+    // padding: 0upx;
+    // overflow-y: auto;
+    // overflow-x: hidden;
+    // clear: both;
+    // float: left;
+    background-color: #edeeed;
+    border-radius: 0upx;
+    font-size: 8upx;
+}
+
+.checkout_success_1 .checkout_success_2 {
+    // white-space: normal;
+    // width: 749upx;
+    // height: 258upx;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0upx;
+    font-size: 8upx;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.checkout_success_1 .checkout_success_2 .checkout_success_4 {
+    // white-space: normal;
+    width: 100%;
+    height: 40upx;
+    margin-top: 60upx;
+    border-radius: 0upx;
+    text-align: center;
+    color: #646464;
+    font-size: 37upx;
+    line-height: 40upx;
+}
+
+.checkout_success_1 .checkout_success_2 .checkout_success_5 {
+    white-space: normal;
+    // width: 281upx;
+    width: 100%;
+    height: 31upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 18upx;
+    // margin-left: 234upx;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 23upx;
+    line-height: 31upx;
+}
+
+.checkout_success_1 .checkout_success_2 .checkout_success_8 {
+    white-space: normal;
+    // width: 395upx;
+    height: 71upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 26upx;
+    // margin-left: 168upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 65upx;
+    line-height: 72upx;
+}
+
+.checkout_success_1 .checkout_success_2 .checkout_success_8 .checkout_success_9 {
+    white-space: normal;
+    width: 184upx;
+    height: 63upx;
+    padding: 0upx;
+    margin-top: 3upx;
+    margin-left: 4upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 64upx;
+    line-height: 63upx;
+}
+
+.checkout_success_1 .checkout_success_2 .checkout_success_8 .checkout_success_10 {
+    white-space: normal;
+    width: 184upx;
+    height: 65upx;
+    padding: 0upx;
+    margin-top: 2upx;
+    margin-left: 19upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 65upx;
+    line-height: 65upx;
+}
+
+.checkout_success_1 .checkout_success_11 {
+    white-space: normal;
+    width: 749upx;
+    position: relative;
+    height: 584upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 20upx;
+    margin-left: 0upx;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 0upx;
+    font-size: 8upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_15 {
+    white-space: normal;
+    width: 697upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 201upx;
+    margin-left: 26upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_15 .checkout_success_16 {
+    white-space: normal;
+    width: 354upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 25upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_15 .checkout_success_17 {
+    white-space: normal;
+    width: 15upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 34upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 22upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_15 .checkout_success_68 {
+    white-space: normal;
+    width: 102upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 4upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 19upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_15 .checkout_success_18 {
+    white-space: normal;
+    width: 83upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 101upx;
+    float: left;
+    text-align: right;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 21upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_21 {
+    white-space: normal;
+    width: 354upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 324upx;
+    margin-left: 26upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 27upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 {
+    white-space: normal;
+    width: 698upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 404upx;
+    margin-left: 26upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 .checkout_success_27 {
+    white-space: normal;
+    width: 354upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 25upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 .checkout_success_28 {
+    white-space: normal;
+    width: 15upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 34upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 17upx;
+    line-height: 24upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 .checkout_success_29 {
+    white-space: normal;
+    width: 102upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 4upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 21upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 .checkout_success_30 {
+    white-space: normal;
+    width: 61upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 65upx;
+    float: left;
+    border-radius: 0upx;
+    color: #c8c8c8;
+    font-size: 21upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_26 .checkout_success_31 {
+    white-space: normal;
+    width: 45upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 12upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 20upx;
+    line-height: 30upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_19 {
+    white-space: normal;
+    width: 697upx;
+    height: 30upx;
+    padding: 0upx;
+    margin-top: 247upx;
+    margin-left: 27upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    color: #c0c0c0;
+    font-size: 21upx;
+    line-height: 30upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_20 {
+    white-space: normal;
+    width: 697upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 324upx;
+    margin-left: 27upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_20 .checkout_success_22 {
+    white-space: normal;
+    width: 15upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 388upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 17upx;
+    line-height: 24upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_20 .checkout_success_23 {
+    white-space: normal;
+    width: 102upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 4upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 21upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_20 .checkout_success_24 {
+    white-space: normal;
+    width: 61upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 65upx;
+    float: left;
+    border-radius: 0upx;
+    color: #c8c8c8;
+    font-size: 21upx;
+    line-height: 34upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_20 .checkout_success_25 {
+    white-space: normal;
+    width: 45upx;
+    height: 34upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 12upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 20upx;
+    line-height: 30upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_14 {
+    white-space: normal;
+    width: 693upx;
+    height: 131upx;
+    padding: 0upx;
+    margin-top: 13upx;
+    margin-left: 28upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    font-size: 8upx;
+    line-height: 131upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 {
+    white-space: normal;
+    width: 413upx;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 518upx;
+    margin-left: 321upx;
+    float: left;
+    position: absolute;
+    top: 0upx;
+    left: 0upx;
+    border-radius: 0upx;
+    font-size: 31upx;
+    line-height: 32upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_33 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 87upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 24upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_34 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 4upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 18upx;
+    line-height: 23upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_35 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 5upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 22upx;
+    line-height: 24upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_36 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 38upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_37 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 13upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 24upx;
+    line-height: 31upx;
+}
+
+.checkout_success_1 .checkout_success_11 .checkout_success_32 .checkout_success_38 {
+    white-space: normal;
+    width: auto;
+    height: 32upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 9upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 25upx;
+    line-height: 32upx;
+}
+
+.checkout_success_1 .checkout_success_12 {
+    white-space: normal;
+    width: 749upx;
+    // height: 398upx;
+    padding: 0upx;
+    padding-bottom: 60upx;
+    clear: both;
+    margin-top: 19upx;
+    margin-left: 0upx;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 0upx;
+    font-size: 8upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_41 {
+    white-space: normal;
+    width: 690upx;
+    height: 29upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 34upx;
+    margin-left: 29upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 29upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_41 .checkout_success_42 {
+    white-space: normal;
+    // width: 127upx;
+    height: 29upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 29upx;
+    line-height: 29upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_41 .checkout_success_43 {
+    white-space: normal;
+    width: 235upx;
+    height: 29upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 328upx;
+    float: left;
+    border-radius: 0upx;
+    color: #c8c8c8;
+    font-size: 22upx;
+    line-height: 24upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_45 {
+    white-space: normal;
+    width: 690upx;
+    height: 3upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 22upx;
+    margin-left: 29upx;
+    float: left;
+    background-color: #e1e1e1;
+    border-radius: 0upx;
+    font-size: 2upx;
+    line-height: 3upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_46 {
+    white-space: normal;
+    width: 690upx;
+    height: 40upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 34upx;
+    margin-left: 29upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 38upx;
+    line-height: 40upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_46 .checkout_success_47 {
+    white-space: normal;
+    width: 119upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 6upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_46 .checkout_success_48 {
+    white-space: normal;
+    width: 361upx;
+    height: 25upx;
+    padding: 0upx;
+    margin-top: 8upx;
+    margin-left: 28upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 22upx;
+    line-height: 25upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_46 .checkout_success_53 {
+    white-space: normal;
+    width: 79upx;
+    height: 40upx;
+    min-height: 40upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 101upx;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    border-color: #e1e1e1;
+    border-width: 1upx;
+    border-style: solid;
+    border-radius: 10upx;
+    color: #c8c8c8;
+    font-size: 20upx;
+    line-height: 40upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_54 {
+    white-space: normal;
+    width: 690upx;
+    height: 28upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 35upx;
+    margin-left: 30upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_54 .checkout_success_55 {
+    white-space: normal;
+    width: 118upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 25upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_54 .checkout_success_56 {
+    white-space: normal;
+    width: 493upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 27upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 23upx;
+    line-height: 25upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_58 {
+    white-space: normal;
+    width: 690upx;
+    height: 28upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 40upx;
+    margin-left: 29upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_58 .checkout_success_59 {
+    white-space: normal;
+    width: 120upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_58 .checkout_success_60 {
+    white-space: normal;
+    width: 409upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 25upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 24upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_62 {
+    white-space: normal;
+    width: 690upx;
+    height: 28upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 40upx;
+    margin-left: 30upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_62 .checkout_success_63 {
+    white-space: normal;
+    width: 120upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 27upx;
+    line-height: 28upx;
+}
+
+.checkout_success_1 .checkout_success_12 .checkout_success_62 .checkout_success_64 {
+    white-space: normal;
+    width: 403upx;
+    height: 28upx;
+    padding: 0upx;
+    margin-top: 0upx;
+    margin-left: 24upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 25upx;
+    line-height: 24upx;
+}
+
+.checkout_success_1 .checkout_success_74 {
+    white-space: normal;
+    width: 749upx;
+    min-height: 118upx;
+    padding: 0upx;
+    clear: both;
+    margin-top: 2upx;
+    margin-left: 0upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 10upx;
+    line-height: 11upx;
+}
+
+.checkout_success_1 .checkout_success_13 {
+    white-space: normal;
+    width: 749upx;
+    height: 81upx;
+    padding: 0upx;
+    clear: both;
+    float: left;
+    position: fixed;
+    z-Index: 100000;
+    left: 0upx;
+    bottom: 0upx;
+    background-color: #ffffff;
+    border-bottom-color: #e1e1e1;
+    border-bottom-width: 1upx;
+    border-bottom-style: solid;
+    border-top-color: #e1e1e1;
+    border-top-width: 1upx;
+    border-top-style: solid;
+    border-radius: 0upx;
+    font-size: 8upx;
+}
+
+.checkout_success_1 .checkout_success_13 .checkout_success_69 {
+    white-space: normal;
+    width: 38upx;
+    height: 37upx;
+    padding: 0upx;
+    margin-top: 21upx;
+    margin-left: 106upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 42upx;
+    line-height: 37upx;
+}
+
+.checkout_success_1 .checkout_success_13 .checkout_success_70 {
+    white-space: normal;
+    // width: 137upx;
+    height: 37upx;
+    padding: 0upx;
+    margin-top: 21upx;
+    margin-left: 12upx;
+    float: left;
+    border-radius: 0upx;
+    color: #646464;
+    font-size: 28upx;
+    line-height: 37upx;
+}
+
+.checkout_success_1 .checkout_success_13 .checkout_success_71 {
+    white-space: normal;
+    width: 2upx;
+    height: 37upx;
+    padding: 0upx;
+    margin-top: 21upx;
+    margin-left: 79upx;
+    float: left;
+    background-color: #e1e1e1;
+    border-radius: 0upx;
+    font-size: 40upx;
+    line-height: 41upx;
+}
+
+.checkout_success_1 .checkout_success_13 .checkout_success_72 {
+    white-space: normal;
+    width: 34upx;
+    height: 37upx;
+    padding: 0upx;
+    margin-top: 21upx;
+    margin-left: 106upx;
+    float: left;
+    border-radius: 0upx;
+    font-size: 34upx;
+    line-height: 37upx;
+}
+
+.checkout_success_1 .checkout_success_13 .checkout_success_73 {
+    white-space: normal;
+    // width: 136upx;
+    height: 37upx;
+    padding: 0upx;
+    margin-top: 21upx;
+    margin-left: 16upx;
+    float: left;
+    border-radius: 0upx;
+    color: #ff6400;
+    font-size: 26upx;
+    line-height: 36upx;
+}

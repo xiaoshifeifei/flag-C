@@ -1,0 +1,65 @@
+<template>
+	<view class="content-body">
+		<SplashView ref="loadSplash" class="view" :style="{width:w+'px',height:h+'px'}">
+		</SplashView>
+	</view>
+</template>
+<script>
+import fusionSdk from '@/fusionAd.js'
+export default {
+  data () {
+    return {
+      w: '',
+      h: ''
+    }
+  },
+  onReady () {},
+  onLoad () {
+    const that = this
+    setTimeout(function () {
+      uni.getSystemInfo({
+        success (res) {
+          fusionSdk.loadSplashAd(that.$refs.loadSplash, '232887619380314112', {
+            onAdShow: function () {
+
+            },
+            onAdClick: function () {
+
+            },
+            onAdClosed: function () {
+              uni.reLaunch({
+                url: '/pages/index/middleware/middleware'
+              })
+            },
+            onAdError: function (code, msg) {
+              // uni.switchTab({
+              //   url: '/pages/category/category'
+              // })
+              alert('广告错误')
+              uni.reLaunch({
+                url: '/pages/index/middleware/middleware'
+              })
+            }
+          })
+        }
+      })
+    }, 200)
+  },
+  onShow () {
+    const that = this
+    uni.getSystemInfo({
+      success (res) {
+        that.w = res.windowWidth
+        that.h = res.windowHeight
+      }
+    })
+  }
+}
+</script>
+
+<style>
+	.view {
+		height: 1300upx;
+		width: 750upx;
+	}
+</style>

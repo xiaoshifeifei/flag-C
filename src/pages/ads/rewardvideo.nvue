@@ -1,0 +1,65 @@
+<template>
+	<view></view>
+</template>
+
+<script>
+import fusionSdk from '../../fusionAd.js'
+//@ts-check
+import config from '@/config/constData.config.js'
+import { http } from './../../utils/request';
+import { checkReward1,checkReward2 } from '@/api/basic';
+import path from "../../config/index.config.js"
+
+export default {
+	mounted() {
+		uni.showLoading({ title: '正在加载...' })
+		setTimeout(() => {
+			fusionSdk.loadRewardVideoAd(
+				{
+					codeId: config.adCode.rewardVideoAd,
+					//用户ID
+					userId: 'your userId',
+					//自定义参数
+					ext: 'your ext'
+				},
+
+				{
+					onAdShow: ()=> {
+						uni.hideLoading();
+					},
+					onAdClick: ()=> {
+						//广告被点击
+					},
+					onAdClosed: ()=> {
+						//视频被关闭 
+						/** 这里用户主动关闭 */
+						uni.navigateBack()
+					},
+					onAdVideoComplete: function() {
+						//单个视频完成
+
+					},
+					onAdReward: async data => {
+						//用户达到奖励时间回调
+						
+						/** 这里可以记录奖励 */
+						console.log('----------------->',path.baseUrl + checkReward1)
+						let ds = await http.get(path.baseUrl + checkReward1);
+						console.log('----------------->',ds)	
+
+						
+						console.log(data)
+					},
+					onAdError: (code, msg)=> {
+						console.log(msg);
+						uni.hideLoading();
+					}
+				}
+			)
+		}, 100)
+	}
+}
+</script>
+
+<style>
+</style>

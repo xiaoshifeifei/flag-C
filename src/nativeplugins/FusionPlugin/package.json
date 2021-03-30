@@ -1,0 +1,53 @@
+{
+	"name": "FusionPlugin",
+	"id": "FusionPlugin",
+	"version": "1.0",
+	"description": "融合",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+					"type": "component",
+					"name": "SplashView",
+					"class": "com.fusionsdk.ad.SplashView"
+				},
+				{
+					"type": "component",
+					"name": "BannerView",
+					"class": "com.fusionsdk.ad.BannerView"
+				}, {
+					"type": "module",
+					"name": "AdModule",
+					"class": "com.fusionsdk.ad.AdModule"
+				}
+			],
+			"hooksClass": "com.fusionsdk.ad.AppProxy",
+			"integrateType": "aar",
+			"dependencies": [],
+			"compileOptions": {
+				"sourceCompatibility": "1.8",
+				"targetCompatibility": "1.8"
+			},
+			"abis": [
+				"armeabi-v7a",
+				"x86",
+				"arm",
+				"arm64-v8a"
+			],
+			"minSdkVersion": "19",
+			"permissions": [
+				"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" /> ",
+				"<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\" /> ",
+				"<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+				"<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+				"<uses-permission android:name=\"android.permission.INTERNET\" />",
+				"<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>"
+			],
+			"parameters": {
+				"appid": {
+					"key": "FUS_APP_KEY"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+<template>
+	<view class="content-body">
+		<SplashView ref="loadSplash" :style="{ width: w, height: h }">
+		</SplashView>
+	</view>
+</template>
+
+<script>
+	import fusionSdk from '@/fusionAd.js'
+	import config from '@/config/constData.config.js'
+	//@ts-check
+
+	export default {
+		data: {
+			w: '',
+			h: ''
+		},
+		mounted() {
+			// #ifdef H5
+			uni.reLaunch({
+				url: '../index/index'
+			})
+			// #endif
+			uni.getSystemInfo({
+				success: res => {
+					this.w = res.windowWidth
+					this.h = res.windowHeight
+					fusionSdk.loadSplashAd(this.$refs.loadSplash, config.adCode.splashAd, {
+						onAdShow: () => {
+							console.log('onSplashShow')
+						},
+						onAdClick: () => {
+							console.log('onSplashClick')
+							//广告被点击
+						},
+
+						onAdClosed: () => {
+							console.log('关闭')
+							//处理页面关闭和跳转逻辑
+							uni.reLaunch({
+								url: '../index/index'
+							})
+						},
+						onAdError: function(code, msg) {
+							console.log('错误')
+							//错误直接进主页
+							uni.reLaunch({
+								url: '../index/index'
+							})
+						}
+					})
+				}
+			})
+		},
+		onLoad() {}
+	}
+</script>
+
+<style>
+	.view {
+		height: 1300upx;
+		width: 750upx;
+	}
+</style>
